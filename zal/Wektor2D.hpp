@@ -1,5 +1,6 @@
 class Wektor2D
 {
+public:
     Wektor2D()
     {
         x = 0;
@@ -10,15 +11,14 @@ class Wektor2D
         x = a;
         y = b;
     }
-    ~Wektor2D(){}
+    ~Wektor2D() {}
 
-    public:
-    void       setX(double a) { x = a; }
-    void       setY(double b) { y = b; }
-    double        getX() { return x; }
-    double        getY() { return y; }
+    void   setX(double a) { x = a; }
+    void   setY(double b) { y = b; }
+    double getX() { return x; }
+    double getY() { return y; }
 
-    private:
+private:
     double x;
     double y;
 };
