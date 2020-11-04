@@ -28,7 +28,7 @@ Wektor2D operator+(Wektor2D wek1, Wektor2D wek2)
     return Wektor2D(wek1.getX() + wek2.getX(), wek1.getY() + wek2.getY());
 }
 
-Wektor2D operator*(Wektor2D wek1, Wektor2D wek2)
+double operator*(Wektor2D wek1, Wektor2D wek2)
 {
-    return Wektor2D(wek1.getX() * wek2.getX(), wek1.getY() * wek2.getY());
+    return wek1.getX() * wek2.getX() + wek1.getY() * wek2.getY();
 }
