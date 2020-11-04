@@ -13,10 +13,10 @@ class Wektor2D
     ~Wektor2D(){}
 
     public:
-    void       setX(int a) { x = a; }
-    void       setY(int b) { y = b; }
-    int        getX() { return x; }
-    int        getY() { return y; }
+    void       setX(double a) { x = a; }
+    void       setY(double b) { y = b; }
+    double        getX() { return x; }
+    double        getY() { return y; }
 
     private:
     double x;
